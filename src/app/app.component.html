@@ -1,0 +1,13 @@
+
+<div class="column full-height center">
+
+  <div class="date-multiselect">
+    <mat-form-field class="full-width" appearance="fill">
+      <mat-label>Choose a date</mat-label>
+      <app-date-multiselect [formControl]="daysSelected"></app-date-multiselect>
+    </mat-form-field>
+  </div>
+  
+  <pre>{{ daysSelected.value | json }}</pre>
+
+</div>

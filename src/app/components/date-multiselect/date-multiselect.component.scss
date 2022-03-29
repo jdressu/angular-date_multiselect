@@ -1,0 +1,44 @@
+.mat-calendar-date-is-selected {
+    background-color: orange !important;
+    border-radius: 100%;
+}
+
+.drop-calendar {
+    width: 300px;
+}
+
+.drop-calendar2 {
+    width: 300px;
+    /* background: #fff; */
+    border-radius: 4px;
+    margin: 0;
+}
+
+.full-width {
+    width: 300px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.line {
+    display: flex;
+    justify-content: right;
+}
+
+.horizontal-padding {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.vertical-padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.add-horizontal-spacing {
+    width: 10px;
+}
